@@ -436,9 +436,6 @@ Nota: el primer paquete de un ping suele perderse porque el equipo todavía est�
 |---|---|---|
 | Errores `% Invalid input detected` al configurar `SW-Red1` | Erratas al teclear (`swtichport`, `vlan10` sin espacio y un nombre de VLAN con espacio) y el switch salió del modo de configuración antes de terminar | Se repitió el bloque de comandos de los puertos, que se puede ejecutar de nuevo sin problema, y se comprobó con `show vlan brief` |
 | Las subredes de la Red 1 se comunicaban entre sí | El router enruta por defecto entre sus subinterfaces | Se aplicaron las ACL `BLOQUEO-SALIDA-RED1` y `BLOQUEO-ENTRADA-RED1` |
-| [Añade aquí otros problemas que hayas tenido] | | |
-
-![Errores en SW-Red1](Imagenes/29-problema-switch.png.png)
 
 ## 12. Estructura del repositorio
 
